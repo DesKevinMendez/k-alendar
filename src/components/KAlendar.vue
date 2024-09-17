@@ -6,10 +6,20 @@
           <button type="button" class="k-alendar-navegation-prev" @click="prevMonth">&larr;</button>
           <button type="button" class="k-alendar-navegation-left" @click="nextMonth">&rarr;</button>
         </div>
-        <button type="button" class="k-alendar-today-button" @click="toToday">Ahora</button>
+        <button type="button" class="k-alendar-today-button" @click="toToday">
+          {{ buttonsTranslations.buttons.today }}
+        </button>
       </div>
       <div class="center-title">
         <h2>{{ title }}</h2>
+      </div>
+      <div class="left-buttons">
+        <button type="button" class="k-alendar-today-button">
+          {{ buttonsTranslations.dayView }}
+        </button>
+        <button type="button" class="k-alendar-today-button">
+          {{ buttonsTranslations.monthView }}
+        </button>
       </div>
     </header>
     <div class="k-alendar-days-container">
@@ -59,15 +69,15 @@
 </template>
 
 <script setup lang="ts">
-import useDate from '@/composables/useDate'
 import useRenderCalendar from '@/composables/useRenderCalendar'
 import type { DayCalendar, MonthDays } from '@/types/Calendar'
 import type { KEvent, KEventDialogEmit } from '@/types/Events'
-import { ref, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
 import KAlendarEventDetailDialog from './KAlendarEventDetailDialog.vue'
 import KEventItem from '@/components/KEventItem.vue'
 import useConfig from '@/composables/useConfig'
 import { useDialog } from '@/composables/useDialog'
+import { translations } from '@/langs/traductions'
 
 const emit = defineEmits([
   'nextMonth',
@@ -81,13 +91,11 @@ const emit = defineEmits([
 
 const props = defineProps<{
   events: KEvent[]
-  tz?: string
   lang?: string
   canEdit?: boolean
   canDelete?: boolean
 }>()
 
-const { timezone } = useDate()
 const { setLang } = useConfig()
 const { collision } = useDialog()
 
@@ -118,23 +126,13 @@ const regenerateCalendar = () => {
   eventsToShowInCalendar.value = props.events
   let currentDt = ''
 
-  if (timezone.value === 'utc') {
-    currentDt = currentDate.value.toFormat('yyyy-MM-dd', { locale: timezone.value })
-  } else {
-    currentDt = currentDate.value.toFormat('yyyy-MM-dd')
-  }
+  currentDt = currentDate.value.toFormat('yyyy-MM-dd')
   monthDays.value = generateCalendar(currentDt)
 }
 
-watch(
-  () => props.tz,
-  (tz) => {
-    if (tz) {
-      timezone.value = tz
-    }
-  },
-  { immediate: true }
-)
+const buttonsTranslations = computed(() => {
+  return translations[props.lang || 'es']
+})
 
 watch(
   () => props.lang,
