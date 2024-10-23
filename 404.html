@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Vue Kalendar</title><meta name="description" content="A simple calendar component for Vue 3">
+    <link rel="preload" href="/vue-k-alendar/assets/style-QbS-kWNk.css" as="style"><link rel="stylesheet" href="/vue-k-alendar/assets/style-QbS-kWNk.css">
+    <link rel="modulepreload" href="/vue-k-alendar/assets/app-CioWoN9u.js"><link rel="modulepreload" href="/vue-k-alendar/assets/404.html-Bp8qEa6l.js">
+    <link rel="prefetch" href="/vue-k-alendar/assets/index.html-Clpy6zvZ.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-8b5ba031><main class="page" data-v-8b5ba031><div class="theme-default-content" data-v-8b5ba031><h1 data-v-8b5ba031>404</h1><blockquote data-v-8b5ba031>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/vue-k-alendar/" data-v-8b5ba031>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/vue-k-alendar/assets/app-CioWoN9u.js" defer></script>
+  </body>
+</html>
