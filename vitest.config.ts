@@ -8,6 +8,9 @@ export default mergeConfig(
     test: {
       environment: 'jsdom',
       exclude: [...configDefaults.exclude, 'e2e/**'],
+      setupFiles: './vitest.setup.ts',
+      clearMocks: true,
+      globals: true,
       root: fileURLToPath(new URL('./', import.meta.url))
     }
   })

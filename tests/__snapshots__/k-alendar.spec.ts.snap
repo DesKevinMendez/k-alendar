@@ -2,246 +2,230 @@
 
 exports[`kAlendar > should render the component 1`] = `
 "<section data-v-74bbb8b8="" class="k-alendar-wrapper-container">
-  <header data-v-74bbb8b8="" class="k-alendar-header-container">
-    <div data-v-74bbb8b8="" class="left-buttons">
-      <div data-v-74bbb8b8="" class="navegation-buttons"><button data-v-74bbb8b8="" type="button" class="k-alendar-navegation-prev">←</button><button data-v-74bbb8b8="" type="button" class="k-alendar-navegation-left">→</button></div><button data-v-74bbb8b8="" type="button" class="k-alendar-today-button">Ahora</button>
-      <div data-v-74bbb8b8="" class="center-title">
-        <h2 data-v-74bbb8b8="">August 2024</h2>
-      </div>
+  <header data-v-0a815d1e="" data-v-74bbb8b8="" class="k-alendar-header-container">
+    <div data-v-0a815d1e="" class="left-buttons">
+      <div data-v-0a815d1e=""><button data-v-11092de0="" data-v-0a815d1e="" type="button" class="k-alendar-navegation-prev">←</button><button data-v-f3d09f65="" data-v-0a815d1e="" type="button" class="k-alendar-navegation-left">→</button></div><button data-v-8f6b2986="" data-v-0a815d1e="" type="button" class="k-alendar-today-button">Today</button>
     </div>
-    <!-- <div class="center-title">
-        <h2>{{ title }}</h2>
-      </div> -->
-    <div data-v-74bbb8b8="" class="right-buttons">
-      <!-- <button type="button" class="k-alendar-today-button">Mes</button>
-        <button type="button" class="k-alendar-today-button">Semana</button>
-        <button type="button" class="k-alendar-today-button">Día</button> -->
+    <div data-v-0a815d1e="" class="center-title">
+      <h2 data-v-0a815d1e="">October 2024</h2>
     </div>
   </header>
-  <div data-v-74bbb8b8="" class="k-alendar-days-container">
-    <div data-v-74bbb8b8="">Mon</div>
-    <div data-v-74bbb8b8="">Tue</div>
-    <div data-v-74bbb8b8="">Wed</div>
-    <div data-v-74bbb8b8="">Thu</div>
-    <div data-v-74bbb8b8="">Fri</div>
-    <div data-v-74bbb8b8="">Sat</div>
-    <div data-v-74bbb8b8="">Sun</div>
+  <div data-v-a8a4dcb5="" data-v-74bbb8b8="" class="k-alendar-days-container">
+    <div data-v-a8a4dcb5="">Mon</div>
+    <div data-v-a8a4dcb5="">Tue</div>
+    <div data-v-a8a4dcb5="">Wed</div>
+    <div data-v-a8a4dcb5="">Thu</div>
+    <div data-v-a8a4dcb5="">Fri</div>
+    <div data-v-a8a4dcb5="">Sat</div>
+    <div data-v-a8a4dcb5="">Sun</div>
   </div>
-  <div data-v-74bbb8b8="" class="k-alendar-container">
-    <div data-v-74bbb8b8="" class="other-month-date date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">29</span>
+  <div data-v-6548dee6="" data-v-74bbb8b8="" class="k-alendar-container">
+    <div data-v-6548dee6="" class="other-month-date date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">30</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="other-month-date date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">30</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">1</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="other-month-date date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">31</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">2</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">1</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">3</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">2</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">4</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">3</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">5</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">4</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">6</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">5</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">7</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">6</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">8</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">7</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">9</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">8</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">10</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">9</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">11</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">10</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">12</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">11</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">13</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">12</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">14</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">13</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">15</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">14</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">16</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">15</span><span data-v-74bbb8b8="" class="point"></span></div>
-      <div data-v-74bbb8b8="" class="events">
-        <ul data-v-74bbb8b8="">
-          <li data-v-bea810c7="" data-v-74bbb8b8="" style="background-color: gray;">
-            <h3 data-v-bea810c7="">+3</h3>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">16</span><span data-v-74bbb8b8="" class="point"></span></div>
-      <div data-v-74bbb8b8="" class="events">
-        <ul data-v-74bbb8b8="">
-          <li data-v-bea810c7="" data-v-74bbb8b8="" style="background-color: gray;">
-            <h3 data-v-bea810c7="">+3</h3>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">17</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">17</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">18</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">18</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">19</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">19</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">20</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">20</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="selected date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">21</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">21</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">22</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">22</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">23</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">23</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">24</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">24</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">25</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">25</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">26</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">26</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">27</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">27</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">28</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">28</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">29</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">29</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">30</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">30</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">31</span>
+    <div data-v-6548dee6="" class="date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">31</span>
         <!--v-if-->
       </div>
       <!--v-if-->
     </div>
-    <div data-v-74bbb8b8="" class="other-month-date date">
-      <div data-v-74bbb8b8="" class="k-alendar-span-container"><span data-v-74bbb8b8="" class="k-alendar-text">1</span>
+    <div data-v-6548dee6="" class="other-month-date date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">1</span>
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+    </div>
+    <div data-v-6548dee6="" class="other-month-date date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">2</span>
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+    </div>
+    <div data-v-6548dee6="" class="other-month-date date">
+      <div data-v-6548dee6="" class="k-alendar-span-container"><span data-v-6548dee6="" class="k-alendar-text">3</span>
         <!--v-if-->
       </div>
       <!--v-if-->
@@ -249,27 +233,19 @@ exports[`kAlendar > should render the component 1`] = `
   </div>
   <dialog data-v-a389628f="" data-v-74bbb8b8="" id="k-alendar-dialog" modal-mode="mega" class="k-alendar-dialog" style="top: 0px; left: 0px;">
     <header>
-      <div data-v-a389628f="" class="flex justify-between"><button data-v-a389628f="" class="k-alendar-button-edit-delete" type="button"><svg data-v-a389628f="" class="h-5 w-5 text-gray-600" aria-hidden="true" focusable="false" data-prefix="far" data-icon="pen-to-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path data-v-a389628f="" class="" fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"></path>
-          </svg></button><button data-v-a389628f="" class="k-alendar-button-edit-delete" type="button"><svg data-v-a389628f="" class="h-5 w-5 text-gray-600" aria-hidden="true" focusable="false" data-prefix="far" data-icon="trash-can" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-            <path data-v-a389628f="" class="" fill="currentColor" d="M170.5 51.6L151.5 80h145l-19-28.4c-1.5-2.2-4-3.6-6.7-3.6H177.1c-2.7 0-5.2 1.3-6.7 3.6zm147-26.6L354.2 80H368h48 8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-8V432c0 44.2-35.8 80-80 80H112c-44.2 0-80-35.8-80-80V128H24c-13.3 0-24-10.7-24-24S10.7 80 24 80h8H80 93.8l36.7-55.1C140.9 9.4 158.4 0 177.1 0h93.7c18.7 0 36.2 9.4 46.6 24.9zM80 128V432c0 17.7 14.3 32 32 32H336c17.7 0 32-14.3 32-32V128H80zm80 64V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16zm80 0V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16zm80 0V400c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8 7.2-16 16-16s16 7.2 16 16z"></path>
-          </svg></button></div><button class="k-alendar-button-close" type="button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+      <div data-v-a389628f="" class="flex justify-between">
+        <!--v-if-->
+        <!--v-if-->
+      </div><button class="k-alendar-button-close" type="button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
           <path class="" fill="currentColor" d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"></path>
         </svg></button>
     </header>
     <article class="k-alendar-dialog-main">
       <section data-v-a389628f="" class="k-alendar-event-detail-main-wrapper">
-        <div data-v-a389628f="" class="title">
-          <!--v-if-->
-          <h2 data-v-a389628f=""></h2>
-        </div>
+        <!--v-if-->
         <div data-v-a389628f="" class="dates"><time data-v-a389628f="" datetime=""></time></div>
         <!--v-if-->
-        <div data-v-a389628f="" class="content"><svg data-v-a389628f="" class="h-5 w-5 text-gray-600 dark:text-gray-300" aria-hidden="true" focusable="false" data-prefix="far" data-icon="comment" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path data-v-a389628f="" class="" fill="currentColor" d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z"></path>
-          </svg>
-          <p data-v-a389628f=""></p>
-        </div>
+        <!--v-if-->
       </section>
     </article>
     <footer></footer>

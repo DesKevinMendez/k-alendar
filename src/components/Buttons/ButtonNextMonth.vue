@@ -3,8 +3,8 @@
 </template>
 
 <script setup lang="ts">
-import useRenderCalendar from '@/composables/useRenderCalendar'
-import { DateTime } from 'luxon'
+import useRenderCalendar from '@/composables/useRenderCalendar';
+import { DateTime } from 'luxon';
 const { currentDate, monthDays, generateCalendar } = useRenderCalendar()
 const emit = defineEmits(['handle'])
 

@@ -23,7 +23,7 @@ const handleClick = () => {
 }
 
 const text = computed(() => {
-  return translations[lang.value].buttons.today || 'Today'
+  return translations[lang.value]?.buttons.today || 'Today'
 })
 </script>
 

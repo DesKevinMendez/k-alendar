@@ -4,12 +4,14 @@ import { DateTime, Interval } from 'luxon';
 import { computed, ref } from "vue";
 import useConfig from './useConfig';
 import useDate from './useDate';
+
 const monthDays = ref<MonthDays[]>([])
 const eventsToShowInCalendar = ref<KEvent[]>([])
-const currentDate = ref(DateTime.now())
 const calendarDaySelect = ref<MonthDays | null>(null)
+const currentDate = ref(DateTime.now())
 
 export default function useRenderCalendar() {
+
   const { today } = useDate()
   const { lang } = useConfig();
 
